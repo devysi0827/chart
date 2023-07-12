@@ -18,7 +18,7 @@ d3.js를 통한 차트 구현
 
 ```
 - react
-- typescript && @types/react, react-dom, styled-components, react-query
+- typescript && @types/styled-components, react-query
 - react-router-dom
 - recoil
 - react-query
