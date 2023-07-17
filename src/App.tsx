@@ -1,5 +1,4 @@
-import { Home } from "Pages";
-import Chart from "Pages/Chart";
+import { Home, Draw } from "Pages";
 import {
   createBrowserRouter,
   RouterProvider,
@@ -12,8 +11,8 @@ const router = createBrowserRouter([
     element: <Home />,
   },
   {
-    path: "/chart",
-    element: <Chart />,
+    path: "/draw",
+    element: <Draw />,
   },
   {
     path: "*",
